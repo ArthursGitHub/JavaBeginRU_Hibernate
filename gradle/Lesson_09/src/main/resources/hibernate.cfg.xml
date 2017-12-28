@@ -21,7 +21,5 @@
     <mapping class="ru.javabegin.training.hibernate.entity.Author"/>
     <mapping class="ru.javabegin.training.hibernate.entity.Book"/>
 
-
-
   </session-factory>
 </hibernate-configuration>

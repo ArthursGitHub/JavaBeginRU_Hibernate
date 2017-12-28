@@ -9,7 +9,6 @@ import javax.persistence.criteria.*;
 import java.util.List;
 
 public class AuthorHelper {
-
     private SessionFactory sessionFactory;
 
     public AuthorHelper() {
