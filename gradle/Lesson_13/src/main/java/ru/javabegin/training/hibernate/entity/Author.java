@@ -28,6 +28,11 @@ public class Author implements Serializable{
         this.id = id;
         this.name = name;
     }
+    public Author(long id, String name, String second_name) {
+        this.id = id;
+        this.name = name;
+        this.secondName = second_name;
+    }
 
     public String getName() {
         return name;

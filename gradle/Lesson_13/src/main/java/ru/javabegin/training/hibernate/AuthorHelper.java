@@ -29,7 +29,7 @@ public class AuthorHelper {
         CriteriaBuilder cb = session.getCriteriaBuilder();// не использовать session.createCriteria, т.к. deprecated
         CriteriaQuery cq = cb.createQuery(Author.class);
         Root<Author> root = cq.from(Author.class);// первостепенный, корневой entity (в sql запросе - from)
-        Selection[] selection = {root.get("id"), root.get("name")}; // выборка полей, в классе Author должен быть конструктор с этими параметрами
+        Selection[] selection = {root.get("id"), root.get("name"), root.get("secondName")}; // выборка полей, в классе Author должен быть конструктор с этими параметрами
         cq.select(cb.construct(Author.class, selection));// необязательный оператор, если просто нужно получить все значения
 
         // этап выполнения запроса

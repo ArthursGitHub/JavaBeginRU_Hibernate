@@ -12,7 +12,7 @@ public class Start {
         List<Author> authorList = new AuthorHelper().getAuthorList();
 
         for (Author author : authorList) {
-            System.out.println(author.getId() + ": " + author.getName() + author.getSecondName() + "\n");
+            System.out.println(author.getId() + ": " + author.getName() + "-> " + author.getSecondName() + "\n");
         }
         HibernateUtil.close();
     }
