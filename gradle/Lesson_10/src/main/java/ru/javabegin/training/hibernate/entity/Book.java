@@ -13,5 +13,4 @@ public class Book implements Serializable {
     private long id;
     private String name;
     private long author_id;
-
 }

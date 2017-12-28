@@ -15,7 +15,7 @@ public class AuthorHelper {
         sessionFactory = HibernateUtil.getSessionFactory();
     }
 
-    public List<Author> getAuthorList(){
+    public List<Author> getAuthorList() {
 
         // открыть сессию - для манипуляции с персист. объектами
         Session session = sessionFactory.openSession();
