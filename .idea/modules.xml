@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaBeginRU_Hibernate.iml" filepath="$PROJECT_DIR$/JavaBeginRU_Hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_07.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_07_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_07_main.iml" group="Lesson_07" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_07_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_07_test.iml" group="Lesson_07" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_07h.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_07h.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_07h_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_07h_main.iml" group="Lesson_07h" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_07h_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_07h_test.iml" group="Lesson_07h" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_09.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_09_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_09_main.iml" group="Lesson_09" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_09_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_09_test.iml" group="Lesson_09" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_09h.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_09h.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_09h_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_09h_main.iml" group="Lesson_09h" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson_09h_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson_09h_test.iml" group="Lesson_09h" />
+      <module fileurl="file://$PROJECT_DIR$/gradle/gradle.iml" filepath="$PROJECT_DIR$/gradle/gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven/maven.iml" filepath="$PROJECT_DIR$/maven/maven.iml" />
+    </modules>
+  </component>
+</project>
