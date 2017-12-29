@@ -5,10 +5,7 @@ import org.hibernate.SessionFactory;
 import ru.javabegin.training.hibernate.entity.Author;
 
 import javax.persistence.Query;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
-import javax.persistence.criteria.Selection;
+import javax.persistence.criteria.*;
 import java.util.List;
 
 public class AuthorHelper {
@@ -41,14 +38,14 @@ public class AuthorHelper {
     }
 
     // добавляют нового автора в таблица Author
-    public Author addAuthor(Author author){
+    public Author addAuthor(Author author) {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
 
-        for (int i=1; i<=200; i++){
-            Author a = new Author("name"+i);
-            a.setSecondName("sec_name"+i);
-            if (i % 20==0){
+        for (int i = 1; i <= 200; i++) {
+            Author a = new Author("name" + i);
+            a.setSecondName("sec_name" + i);
+            if (i % 20 == 0) {
                 session.flush();
             }
             session.save(a); // сгенерит ID и вставит в объект
@@ -61,7 +58,7 @@ public class AuthorHelper {
         return author;
     }
 
-    public Author getAuthor(String name){
+    public Author getAuthor(String name) {
         return null;
     }
 }
